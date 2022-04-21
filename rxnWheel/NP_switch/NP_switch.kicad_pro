@@ -239,7 +239,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "rxnWheel.kicad_pro",
+    "filename": "NP_switch.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -318,20 +318,8 @@
   },
   "sheets": [
     [
-      "9538e4ed-27e6-4c37-b989-9859dc0d49e8",
+      "d8a644b5-935e-4359-b763-21c8fc16689d",
       ""
-    ],
-    [
-      "8e485e19-4b91-45a4-88b2-6a19a5a0013f",
-      "U"
-    ],
-    [
-      "ac4486ff-84d5-4133-ba84-b6c4de1ddb19",
-      "W"
-    ],
-    [
-      "a7e11de0-b987-453e-9e08-30a2e3d4892c",
-      "V"
     ]
   ],
   "text_variables": {}
