@@ -2951,10 +2951,10 @@
   )
 
   (symbol (lib_id "Device:R") (at 67.31 64.77 90) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes)
     (uuid ef73f7c9-930d-4f84-8c21-58053aea8e77)
-    (property "Reference" "R13" (id 0) (at 67.31 58.42 90))
-    (property "Value" "10K" (id 1) (at 67.31 60.96 90))
+    (property "Reference" "R13" (id 0) (at 67.31 62.23 90))
+    (property "Value" "10K" (id 1) (at 67.31 64.77 90))
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (id 2) (at 67.31 66.548 90)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3115,7 +3115,7 @@
     (property "Sheet name" "U" (id 0) (at 224.79 76.7584 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "NP_switch\\NP_switch.kicad_sch" (id 1) (at 224.79 93.2946 0)
+    (property "Sheet file" "NP_switch/NP_switch.kicad_sch" (id 1) (at 224.79 93.2946 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (pin "BATT+" input (at 229.87 77.47 90)
@@ -3151,7 +3151,7 @@
     (property "Sheet name" "V" (id 0) (at 224.79 133.9084 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "NP_switch\\NP_switch.kicad_sch" (id 1) (at 224.79 150.4446 0)
+    (property "Sheet file" "NP_switch/NP_switch.kicad_sch" (id 1) (at 224.79 150.4446 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (pin "BATT+" input (at 229.87 134.62 90)
@@ -3187,7 +3187,7 @@
     (property "Sheet name" "W" (id 0) (at 224.79 107.2384 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "NP_switch\\NP_switch.kicad_sch" (id 1) (at 224.79 123.7746 0)
+    (property "Sheet file" "NP_switch/NP_switch.kicad_sch" (id 1) (at 224.79 123.7746 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (pin "BATT+" input (at 229.87 107.95 90)
@@ -3278,13 +3278,13 @@
     (path "/0a81ab59-32e7-4404-ad2b-7b5313baec4e"
       (reference "#PWR?") (unit 1) (value "+BATT") (footprint "")
     )
+    (path "/ac4486ff-84d5-4133-ba84-b6c4de1ddb19/4669e73e-b1c6-4295-bc4c-92f45e5fd735"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/8e485e19-4b91-45a4-88b2-6a19a5a0013f/4669e73e-b1c6-4295-bc4c-92f45e5fd735"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/a7e11de0-b987-453e-9e08-30a2e3d4892c/4669e73e-b1c6-4295-bc4c-92f45e5fd735"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/ac4486ff-84d5-4133-ba84-b6c4de1ddb19/4669e73e-b1c6-4295-bc4c-92f45e5fd735"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/5acf29ab-dac4-4eb0-ac95-016cd6b4d9ae"
@@ -3410,13 +3410,13 @@
     (path "/674f22d3-02da-42cb-82a2-2f25ea9e53c7"
       (reference "Q?") (unit 1) (value "IRF7458") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
-    (path "/8e485e19-4b91-45a4-88b2-6a19a5a0013f/c5ec54f0-0d08-4954-a314-8acf9272ac84"
-      (reference "Q?") (unit 1) (value "Si4162DY") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
-    )
     (path "/ac4486ff-84d5-4133-ba84-b6c4de1ddb19/c5ec54f0-0d08-4954-a314-8acf9272ac84"
       (reference "Q?") (unit 1) (value "Si4162DY") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/a7e11de0-b987-453e-9e08-30a2e3d4892c/c5ec54f0-0d08-4954-a314-8acf9272ac84"
+      (reference "Q?") (unit 1) (value "Si4162DY") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+    )
+    (path "/8e485e19-4b91-45a4-88b2-6a19a5a0013f/c5ec54f0-0d08-4954-a314-8acf9272ac84"
       (reference "Q?") (unit 1) (value "Si4162DY") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/fce76e3c-0361-44db-8a7e-9ea2e90c81ea"
