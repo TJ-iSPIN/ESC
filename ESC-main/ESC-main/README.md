@@ -1,2 +1,0 @@
-# ESC
-motor go spin
